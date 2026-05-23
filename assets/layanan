@@ -1,0 +1,99 @@
+<!-- Layanan PPID -->
+    <div class="bg-green-tea-700">
+        <div class="space-y-4 lg:px-8 xl:px-36 xl:py-8">
+            <div class="flex gap-4 items-center justify-center">
+                <div class="bg-green-tea-50 rounded-full h-0.5 flex-1"></div>
+                <h2 class="font-roboto text-2xl text-center font-semibold text-green-tea-50 uppercase">
+                    Layanan Publik
+                </h2>
+                <div class="bg-green-tea-50 rounded-full h-0.5 flex-1"></div>
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Informasi Publik-->
+                <div class="justify-items-center rounded-2xl border border-green-tea-50/20 bg-green-tea-50/30 p-8 shadow-2xl backdrop-blur-md space-y-4">
+                    <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M10.75 2.44995C11.45 1.85995 12.58 1.85995 13.26 2.44995L14.84 3.79995C15.14 4.04995 15.71 4.25995 16.11 4.25995H17.81C18.87 4.25995 19.74 5.12995 19.74 6.18995V7.88995C19.74 8.28995 19.95 8.84995 20.2 9.14995L21.55 10.7299C22.14 11.4299 22.14 12.5599 21.55 13.2399L20.2 14.8199C19.95 15.1199 19.74 15.6799 19.74 16.0799V17.7799C19.74 18.8399 18.87 19.7099 17.81 19.7099H16.11C15.71 19.7099 15.15 19.9199 14.85 20.1699L13.27 21.5199C12.57 22.1099 11.44 22.1099 10.76 21.5199L9.18001 20.1699C8.88001 19.9199 8.31 19.7099 7.92 19.7099H6.17C5.11 19.7099 4.24 18.8399 4.24 17.7799V16.0699C4.24 15.6799 4.04 15.1099 3.79 14.8199L2.44 13.2299C1.86 12.5399 1.86 11.4199 2.44 10.7299L3.79 9.13995C4.04 8.83995 4.24 8.27995 4.24 7.88995V6.19995C4.24 5.13995 5.11 4.26995 6.17 4.26995H7.9C8.3 4.26995 8.86 4.05995 9.16 3.80995L10.75 2.44995Z" stroke="#fbfdf7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 8.13V12.96" stroke="#fbfdf7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.9945 16H12.0035" stroke="#fbfdf7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                    <h2 class="text-2xl font-poppins font-semibold text-green-tea-50 capitalize">
+                        Informasi Publik
+                    </h2>
+                    <h4 class="text-green-tea-50 font-poppins text-center">
+                        Menyediakan informasi publik yang terdiri dari informasi berkala, informasi serta merta, dan informasi setiap saat sesuai dengan ketentuan peraturan perundang-undangan.
+                    </h4>
+                    <div class="flex justify-center items-center gap-4 w-full">
+                        <a
+                                href=""
+                                class="w-full rounded-md bg-green-tea-50/20 p-4 text-sm text-center font-semibold text-white transition duration-300 hover:bg-green-tea-100/30 border border-white/10"
+                                target="_blank"
+                        >
+                            Lihat Detail
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Permohonan Informasi-->
+                <div class="justify-items-center rounded-2xl border border-green-tea-50/20 bg-green-tea-50/30 p-8 shadow-2xl backdrop-blur-md space-y-4">
+                    <svg fill="#fbfdf7" width="64px" height="64px" viewBox="0 0 20 20">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path d="M7.29,12H6.87A5.73,5.73,0,0,0,1,17.54,2.38,2.38,0,0,0,1,18H8.26A7,7,0,0,1,7,14,7.27,7.27,0,0,1,7.29,12ZM8.46,9.73A7,7,0,0,1,14,7a5.12,5.12,0,0,1,.56,0A4.93,4.93,0,0,0,15,5,5,5,0,1,0,8.46,9.73Z"></path>
+                                <path class="secondary" d="M18.24,9.77a6,6,0,1,0,0,8.48A6,6,0,0,0,18.24,9.77Zm-3.51,8.35H13.27V16.66h1.46Zm0-3.05H13.29L13.16,9.9h1.68Z"></path>
+                            </g>
+                        </g>
+                    </svg>
+                    <h2 class="text-2xl font-poppins font-semibold text-green-tea-50 capitalize">
+                        Permohonan Informasi
+                    </h2>
+                    <h4 class="text-green-tea-50 font-poppins text-center">
+                        Layanan pengajuan permohonan informasi publik bagi masyarakat yang membutuhkan informasi terkait penyelenggaraan pendidikan
+                    </h4>
+                    <div class="flex justify-center items-center gap-4 w-full">
+                        <a
+                                href=""
+                                class="w-full rounded-md bg-green-tea-50/20 p-4 text-sm text-center font-semibold text-white transition duration-300 hover:bg-green-tea-100/30 border border-white/10"
+                                target="_blank"
+                        >
+                            Lihat Detail
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Regulasi dan Dokumen -->
+                <div class="justify-items-center rounded-2xl border border-green-tea-50/20 bg-green-tea-50/30 p-8 shadow-2xl backdrop-blur-md space-y-4">
+                    <svg fill="#fbfdf6" width="64px" height="64px" viewBox="0 0 512 512">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                        <title>ionicons-v5-e</title>
+                        <path d="M298.39,248a4,4,0,0,0,2.86-6.8l-78.4-79.72a4,4,0,0,0-6.85,2.81V236a12,12,0,0,0,12,12Z"></path><path d="M197,267A43.67,43.67,0,0,1,184,236V144H112a64.19,64.19,0,0,0-64,64V432a64,64,0,0,0,64,64H256a64,64,0,0,0,64-64V280H228A43.61,43.61,0,0,1,197,267Z"></path>
+                            <path d="M372,120h70.39a4,4,0,0,0,2.86-6.8l-78.4-79.72A4,4,0,0,0,360,36.29V108A12,12,0,0,0,372,120Z"></path><path d="M372,152a44.34,44.34,0,0,1-44-44V16H220a60.07,60.07,0,0,0-60,60v36h42.12A40.81,40.81,0,0,1,231,124.14l109.16,111a41.11,41.11,0,0,1,11.83,29V400h53.05c32.51,0,58.95-26.92,58.95-60V152Z"></path>
+                        </g>
+                    </svg>
+                    <h2 class="text-2xl font-poppins font-semibold text-green-tea-50 capitalize">
+                        Regulasi & Dokumen
+                    </h2>
+                    <h4 class="text-green-tea-50 font-poppins text-center">
+                        Berisi regulasi berupa peraturan, keputusan kepala madrasah, serta dokumen pendukung yang berkaitan dengan pelaksanaan layanan PPID.
+                    </h4>
+                    <div class="flex justify-center items-center gap-4 w-full">
+                        <a
+                                href=""
+                                class="w-full rounded-md bg-green-tea-50/20 p-4 text-sm text-center font-semibold text-white transition duration-300 hover:bg-green-tea-100/30 border border-white/10"
+                                target="_blank"
+                        >
+                            Lihat Detail
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

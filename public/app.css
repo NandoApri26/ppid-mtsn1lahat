@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-grenze-gotisch: 'Grenze Gotisch', serif;
+    --font-poetsen-one: 'Poetsen One', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+
+    /* Colors */
+    --color-green-tea-50: #FBFDF7;
+    --color-green-tea-100: #F7FAEF;
+    --color-green-tea-200: #EDF5DC;
+    --color-green-tea-300: #DFECC0;
+    --color-green-tea-400: #B8D675;
+    --color-green-tea-500: #8EB535;
+    --color-green-tea-600: #698627;
+    --color-green-tea-700: #536A1F;
+    --color-green-tea-800: #344314;
+    --color-green-tea-900: #222B0D;
+    --color-green-tea-950: #0C1005;
+
+    --color-cokelat-50: #FDFAF7;
+    --color-cokelat-100: #FAF5EF;
+    --color-cokelat-200: #F4E9DC;
+    --color-cokelat-300: #ECD8C1;
+    --color-cokelat-400: #D5A976;
+    --color-cokelat-500: #B47A37;
+    --color-cokelat-600: #855A29;
+    --color-cokelat-700: #694820;
+    --color-cokelat-800: #422D14;
+    --color-cokelat-900: #2B1D0D;
+    --color-cokelat-950: #100B05;
+}
