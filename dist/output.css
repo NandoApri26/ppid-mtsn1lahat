@@ -453,6 +453,9 @@
       background-color: color-mix(in oklab, var(--color-green-tea-50) 80%, transparent);
     }
   }
+  .bg-green-tea-100 {
+    background-color: var(--color-green-tea-100);
+  }
   .bg-green-tea-100\/50 {
     background-color: color-mix(in srgb, #F7FAEF 50%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
