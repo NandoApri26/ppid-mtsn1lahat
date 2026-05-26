@@ -647,6 +647,9 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
   .py-36 {
     padding-block: calc(var(--spacing) * 36);
   }
@@ -1061,6 +1064,11 @@
       padding-inline: calc(var(--spacing) * 32);
     }
   }
+  .md\:py-8 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 8);
+    }
+  }
   .md\:text-sm {
     @media (width >= 48rem) {
       font-size: var(--text-sm);
@@ -1216,6 +1224,11 @@
   .lg\:py-4 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 4);
+    }
+  }
+  .lg\:py-36 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 36);
     }
   }
   .lg\:text-center {
