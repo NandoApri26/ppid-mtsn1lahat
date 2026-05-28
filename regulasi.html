@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PPID MTS N 1 Lahat</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-green-tea-50">
+    <div class="pb-8">
+        <!-- Navbar -->
+        <div class="top-0 z-50 sticky bg-green-tea-100 backdrop-blur-md p-4 xl:px-36 xl:py-4">
+            <nav class="flex-none py-2.5 px-4 w-full mx-auto bg-green-tea-50 backdrop-blur-md border border-green-tea-700 rounded-lg md:rounded-xl">
+                <div class="flex justify-between items-center lg:flex-col xl:flex-row">
+                    <!-- Logo Section -->
+                    <div class="flex items-center">
+                        <a href="index.html" class="flex gap-4 items-center">
+                            <img
+                                    src="assets/logo.png"
+                                    alt="PPID MTs N 1 Lahat"
+                                    class="w-10 h-10"
+                            >
+                            <h1 class="font-poetsen-one font-bold text-xl text-green-tea-700">
+                                PPID MTs N 1 Lahat
+                            </h1>
+                        </a>
+                    </div>
+                    <div class="hidden gap-8 lg:flex md:items-center">
+                        <ul class="hidden gap-8 list-none lg:flex md:items-center">
+                            <li class="list-none">
+                                <a
+                                        href="index.html"
+                                        class="text-green-tea-700 text-sm font-semibold hover:text-green-tea-900"
+                                >
+                                    Beranda
+                                </a>
+                            </li>
+
+                            <!-- Dropdown Profile PPID -->
+                            <li class="relative list-none group">
+                                <a
+                                        href="profile.html"
+                                        class="inline-flex items-center gap-1 text-green-tea-700 text-sm font-semibold hover:text-green-tea-900"
+                                >
+                                    Profile PPID
+                                    <svg class="w-5 h-5 transition-transform duration-200 group-hover:rotate-90" viewBox="0 0 24 24" fill="none">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M10 16L14 12L10 8" stroke="#536a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </a>
+
+                                <ul class="absolute left-0 top-full z-50 hidden min-w-48 rounded-lg border border-green-tea-200 bg-green-tea-50 shadow-lg group-hover:block">
+                                    <li>
+                                        <a href="tentang-ppid.html" class="rounded-t-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Tentang PPID
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="struktur-ppid.html" class="block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Struktur PPID
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tugas-fungsi.html" class="rounded-b-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Tugas dan Fungsi
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown Informasi Publik -->
+                            <li class="relative list-none group">
+                                <a
+                                        href="informasi-publik.html"
+                                        class="inline-flex items-center gap-1 text-green-tea-700 text-sm font-semibold hover:text-green-tea-900"
+                                >
+                                    Informasi Publik
+                                    <svg class="w-5 h-5 transition-transform duration-200 group-hover:rotate-90" viewBox="0 0 24 24" fill="none">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M10 16L14 12L10 8" stroke="#536a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </a>
+
+                                <ul class="absolute left-0 top-full z-50 hidden min-w-56 rounded-lg border border-green-tea-200 bg-green-tea-50 shadow-lg group-hover:block">
+                                    <li>
+                                        <a href="informasi-berkala.html" class="rounded-t-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Informasi Berkala
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="informasi-seta-merta.html" class="block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Informasi Serta Merta
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="informasi-setiap-saat.html" class="rounded-b-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Informasi Setiap Saat
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown Layanan Informasi -->
+                            <li class="relative list-none group">
+                                <a
+                                        href="layanan-informasi.html""
+                                class="inline-flex items-center gap-1 text-green-tea-700 text-sm font-semibold hover:text-green-tea-900"
+                                >
+                                Layanan Informasi
+                                <svg class="w-5 h-5 transition-transform duration-200 group-hover:rotate-90" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M10 16L14 12L10 8" stroke="#536a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                                </a>
+
+                                <ul class="absolute left-0 top-full z-50 hidden min-w-56 rounded-lg border border-green-tea-200 bg-green-tea-50 shadow-lg group-hover:block">
+                                    <li>
+                                        <a href="permohonan-informasi.html" class="rounded-t-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Permohonan Informasi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pengajuan-keberatan.html" class="block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Pengajuan Keberatan
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="informasi-dikecualikan.html" class="rounded-b-lg block px-4 py-2 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                            Informasi Dikecualikan
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="list-none">
+                                <a
+                                        href="regulasi.html"
+                                        class="text-green-tea-700 text-sm font-semibold hover:text-green-tea-900"
+                                >
+                                    Regulasi
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a
+                                href="#"
+                                class="px-5 py-2.5 bg-green-tea-700 text-green-tea-50 text-sm font-semibold rounded-lg hover:bg-green-tea-800"
+                        >
+                            Kontak
+                        </a>
+                    </div>
+                    <!-- Hamburger Menu Button -->
+                    <button
+                            id="menu-toggle"
+                            type="button"
+                            aria-controls="menu"
+                            aria-expanded="false"
+                            class="lg:hidden flex items-center text-green-tea-700 hover:text-green-tea-900 focus:outline-none"
+                    >
+                        <svg
+                                class="w-6 h-6"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Mobile Navigation Links -->
+                <ul
+                        id="menu"
+                        class="hidden flex-col w-full absolute top-16 left-0 bg-green-tea-50 mt-2 rounded-lg shadow-lg lg:hidden"
+                >
+                    <li>
+                        <a
+                                href="index.html"
+                                class="block text-green-tea-700 text-sm font-semibold p-4 rounded-t-lg hover:bg-green-tea-700 hover:text-green-tea-50"
+                        >
+                            Beranda
+                        </a>
+                    </li>
+
+                    <!-- Mobile Profile PPID -->
+                    <li>
+                        <button
+                                type="button"
+                                class="mobile-submenu-toggle flex w-full items-center justify-between text-left text-green-tea-700 text-sm font-semibold p-4 hover:bg-green-tea-700 hover:text-green-tea-50"
+                        >
+                            Profile PPID
+                            <svg class="submenu-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+
+                        <ul class="mobile-submenu hidden bg-green-tea-100">
+                            <li>
+                                <a href="tentang-ppid.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Tentang PPID
+                                </a>
+                            </li>
+                            <li>
+                                <a href="struktur-ppid.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Struktur PPID
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tugas-fungsi.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Tugas dan Fungsi
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Mobile Informasi Publik -->
+                    <li>
+                        <button
+                                type="button"
+                                class="mobile-submenu-toggle flex w-full items-center justify-between text-left text-green-tea-700 text-sm font-semibold p-4 hover:bg-green-tea-700 hover:text-green-tea-50"
+                        >
+                            Informasi Publik
+                            <svg class="submenu-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+
+                        <ul class="mobile-submenu hidden bg-green-tea-100">
+                            <li>
+                                <a href="informasi-berkala.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Informasi Berkala
+                                </a>
+                            </li>
+                            <li>
+                                <a href="informasi-serta-merta.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Informasi Serta Merta
+                                </a>
+                            </li>
+                            <li>
+                                <a href="informasi-setiap-saat.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Informasi Setiap Saat
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Mobile Layanan Informasi -->
+                    <li>
+                        <button
+                                type="button"
+                                class="mobile-submenu-toggle flex w-full items-center justify-between text-left text-green-tea-700 text-sm font-semibold p-4 hover:bg-green-tea-700 hover:text-green-tea-50"
+                        >
+                            Layanan Informasi
+                            <svg class="submenu-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+
+                        <ul class="mobile-submenu hidden bg-green-tea-100">
+                            <li>
+                                <a href="permohonan-informasi.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Permohonan Informasi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pengajuan-keberatan.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Pengajuan Keberatan
+                                </a>
+                            </li>
+                            <li>
+                                <a href="informasi-dikecualikan.html" class="block px-8 py-3 text-sm font-semibold text-green-tea-700 hover:bg-green-tea-700 hover:text-green-tea-50">
+                                    Informasi Dikecualikan
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a
+                                href="regulasi.html"
+                                class="block text-green-tea-700 text-sm font-semibold p-4 hover:bg-green-tea-700 hover:text-green-tea-50"
+                        >
+                            Regulasi
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                                href="#"
+                                class="block bg-green-tea-700 text-green-tea-50 text-center text-sm font-semibold p-4 rounded-b-lg hover:bg-green-tea-800"
+                        >
+                            Kontak
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Kontent -->
+        <div class="bg-green-tea-50 mb-8 py-6 px-4 space-y-4 lg:px-8 lg:space-y-8 xl:px-36 xl:py-8">
+            <div class="space-y-4 lg:space-y-8">
+                <div class="p-4 gap-4  bg-green-tea-700 rounded-2xl space-y-4 lg:gap-8 lg:p-8">
+                    <div class="space-y-2 text-center">
+                        <h1 class="font-semibold font-poppins text-green-tea-50 capitalize lg:text-2xl">Payung Hukum & Regulasi PPID MTs Negeri 1 Lahat</h1>
+                        <h4 class="font-poppins text-green-tea-50 text-sm lg:px-36">
+                            Sebagai bagian dari Satuan Kerja Kementerian Agama RI, PPID MTs Negeri 1 Lahat bergerak dan melayani berdasarkan landasan hukum yang kuat. Kami berkomitmen penuh untuk menjalankan amanat undang-undang demi terciptanya tata kelola madrasah yang bersih, transparan, dan akuntabel (Good Governance).
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-4 lg:gap-8">
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">Undang-Undang Republik Indonesia</h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">UU No. 14 Tahun 2008</p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">Tentang Keterbukaan Informasi Publik (KIP)</span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">UU No. 25 Tahun 2009</p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">Tentang Pelayanan Publik</span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Peraturan Pemerintah -->
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">
+                        Peraturan Pemerintah
+                    </h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                PP Nomor 61 Tahun 2010
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                Tentang pelaksanaan Undang-Undang Keterbukaan Informasi Publik.
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PERKI -->
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">
+                        Peraturan Komisi Informasi (PERKI)
+                    </h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">PERKI No. 1 Tahun 2021</p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">Tentang Standar Layanan Informasi Publik</span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Peraturan & Keputusan Menteri Agama (PMA / KMA) -->
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">
+                        Peraturan & Keputusan Menteri Agama (PMA / KMA)
+                    </h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                PMA No. 46 Tahun 2022
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                Tentang Pengelolaan Informasi dan Dokumentasi pada Kementerian Agama.
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                Peraturan Menteri No. 15 Tahun 2019
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                Tentang Organisasi dan Tata Kerja PPID
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                KMA (Keputusan Menteri Agama)
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                terkait Pejabat Pengelola Informasi dan Dokumentasi yang mengatur struktur, tugas, dan fungsi PPID secara berjenjang hingga ke tingkat satuan kerja madrasah.
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Madrasah -->
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">
+                        Keputusan Kepala Madrasah
+                    </h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                Keputusan Kepala Madrasah
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                Kebijakan internal MTs Negeri 1 Lahat terkait penunjukan PPID, standar layanan, dan pengelolaan informasi publik.
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Madrasah -->
+                <div class="p-4 bg-green-tea-200 space-y-2 rounded-xl shadow lg:p-8 lg:space-y-8">
+                    <h2 class="font-poppins font-bold text-green-tea-700 text-center md:text-left">
+                        SOP Informasi Publik
+                    </h2>
+                    <div class="flex gap-4 justify-between items-start">
+                        <div class="">
+                            <p class="text-sm font-poppins font-semibold text-green-tea-700">
+                                SOP Layanan Informasi Publik
+                            </p>
+                            <span class="text-xs font-poppins text-green-tea-600 italic">
+                                Standar operasional prosedur pelayanan permohonan informasi, keberatan, dan dokumentasi informasi publik.
+                            </span>
+                        </div>
+                        <a
+                                href=""
+                                class="px-4 py-2.5 bg-green-tea-700 text-sm font-poppins text-green-tea-50 rounded-lg hover:bg-green-tea-800"
+                        >
+                            Download
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="px-4 lg:px-8 xl:px-36 xl:py-8">
+            <footer class="w-full">
+                <div class="p-4 bg-green-tea-50 border-4 border-green-tea-600/50 rounded-2xl shadow-sm backdrop-blur-2xl lg:p-8">
+
+                    <div class="grid grid-cols-1 gap-4 content-start lg:grid-cols-2">
+
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-center space-x-3 md:justify-start">
+                                <img src="assets/logo.png" alt="PPID MTsN 1 Lahat" class="w-10 h-10 object-contain" />
+                                <span class="text-green-tea-700 font-bold text-xl font-poetsen-one tracking-wide">PPID MTs Negeri 1 Lahat</span>
+                            </div>
+
+                            <div class="flex flex-wrap items-center justify-between gap-4 md:flex md:flex-nowrap lg:flex-col lg:items-start">
+                                <p class="text-green-tea-700 text-sm leading-relaxed max-w-xl">
+                                    “Melayani dengan transparan, akuntabel, dan bertanggung jawab untuk mewujudkan keterbukaan informasi publik di lingkungan Madrasah.”
+                                </p>
+
+                                <!-- sosmed -->
+                                <div class="hidden gap-4 items-center md:flex">
+                                    <!-- WhatsApp -->
+                                    <a
+                                            href=""
+                                            target="_blank"
+                                    >
+                                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <path d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z" fill="#536a1f"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                    <!-- Instagram -->
+                                    <a
+                                            href="https://www.instagram.com/mtsnegeri1lahat"
+                                            target="_blank"
+                                    >
+                                        <svg width="24px" height="24px" viewBox="0 0 20 20" version="1.1" fill="#536a1f">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <title>instagram [#536a1f]</title>
+                                                <desc>Created with Sketch.</desc>
+                                                <defs> </defs>
+                                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#536a1f">
+                                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#536a1f]">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                    <!-- Tiktok -->
+                                    <a
+                                            href="https://www.tiktok.com/@mtsn1.lahat"
+                                            target="_blank"
+                                    >
+                                        <svg fill="#536a1f" width="24px" height="24px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <title>tiktok</title>
+                                                <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+
+                                    <!-- Youtube -->
+                                    <a
+                                            href="https://www.youtube.com/@MTsLahat"
+                                            target="_blank"
+                                    >
+                                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49614 7.13176C9.18664 6.9549 8.80639 6.95617 8.49807 7.13509C8.18976 7.31401 8 7.64353 8 8V16C8 16.3565 8.18976 16.686 8.49807 16.8649C8.80639 17.0438 9.18664 17.0451 9.49614 16.8682L16.4961 12.8682C16.8077 12.6902 17 12.3589 17 12C17 11.6411 16.8077 11.3098 16.4961 11.1318L9.49614 7.13176ZM13.9844 12L10 14.2768V9.72318L13.9844 12Z" fill="#536a1f"></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 8.25027 0 6.3754 0.954915 5.06107C1.26331 4.6366 1.6366 4.26331 2.06107 3.95491C3.3754 3 5.25027 3 9 3H15C18.7497 3 20.6246 3 21.9389 3.95491C22.3634 4.26331 22.7367 4.6366 23.0451 5.06107C24 6.3754 24 8.25027 24 12C24 15.7497 24 17.6246 23.0451 18.9389C22.7367 19.3634 22.3634 19.7367 21.9389 20.0451C20.6246 21 18.7497 21 15 21H9C5.25027 21 3.3754 21 2.06107 20.0451C1.6366 19.7367 1.26331 19.3634 0.954915 18.9389C0 17.6246 0 15.7497 0 12ZM9 5H15C16.9194 5 18.1983 5.00275 19.1673 5.10773C20.0989 5.20866 20.504 5.38448 20.7634 5.57295C21.018 5.75799 21.242 5.98196 21.4271 6.23664C21.6155 6.49605 21.7913 6.90113 21.8923 7.83269C21.9973 8.80167 22 10.0806 22 12C22 13.9194 21.9973 15.1983 21.8923 16.1673C21.7913 17.0989 21.6155 17.504 21.4271 17.7634C21.242 18.018 21.018 18.242 20.7634 18.4271C20.504 18.6155 20.0989 18.7913 19.1673 18.8923C18.1983 18.9973 16.9194 19 15 19H9C7.08058 19 5.80167 18.9973 4.83269 18.8923C3.90113 18.7913 3.49605 18.6155 3.23664 18.4271C2.98196 18.242 2.75799 18.018 2.57295 17.7634C2.38448 17.504 2.20866 17.0989 2.10773 16.1673C2.00275 15.1983 2 13.9194 2 12C2 10.0806 2.00275 8.80167 2.10773 7.83269C2.20866 6.90113 2.38448 6.49605 2.57295 6.23664C2.75799 5.98196 2.98196 5.75799 3.23664 5.57295C3.49605 5.38448 3.90113 5.20866 4.83269 5.10773C5.80167 5.00275 7.08058 5 9 5Z" fill="#536a1f"></path>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-2.5 lg:gap-4">
+                            <div class="">
+                                <h3 class="text-green-tea-700 font-semibold uppercase">Menu</h3>
+                                <ul class="space-y-2 mt-2 text-sm text-green-tea-700">
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Profile PPID</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Tentang PPID</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Struktur PPID</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Tugas & Fungsi</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="">
+                                <h3 class="text-green-tea-700 font-semibold uppercase">Informasi</h3>
+                                <ul class="space-y-2 mt-2 text-sm text-green-tea-700">
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Informasi Berkala</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Informasi Serta Merta</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Informasi Setiap Saat</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Regulasi & Dokumen</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="">
+                                <h3 class="text-green-tea-700 font-semibold uppercase">Layanan Informasi</h3>
+                                <ul class="space-y-2 mt-2 text-sm text-green-tea-700">
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Permohonan Informasi</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Pengajuan Keberatan</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="hover:text-green-tea-800 transition-colors">Informasi Dikecualikan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- sosmed -->
+                        <div class="flex justify-center gap-4 items-center md:hidden">
+                            <!-- WhatsApp -->
+                            <a
+                                    href=""
+                                    target="_blank"
+                            >
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z" fill="#536a1f"></path>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a
+                                    href="https://www.instagram.com/mtsnegeri1lahat"
+                                    target="_blank"
+                            >
+                                <svg width="16px" height="16px" viewBox="0 0 20 20" version="1.1" fill="#536a1f">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>instagram [#536a1f]</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#536a1f">
+                                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                    <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#536a1f]">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <!-- Tiktok -->
+                            <a
+                                    href="https://www.tiktok.com/@mtsn1.lahat"
+                                    target="_blank"
+                            >
+                                <svg fill="#536a1f" width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>tiktok</title>
+                                        <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <!-- Youtube -->
+                            <a
+                                    href="https://www.youtube.com/@MTsLahat"
+                                    target="_blank"
+                            >
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49614 7.13176C9.18664 6.9549 8.80639 6.95617 8.49807 7.13509C8.18976 7.31401 8 7.64353 8 8V16C8 16.3565 8.18976 16.686 8.49807 16.8649C8.80639 17.0438 9.18664 17.0451 9.49614 16.8682L16.4961 12.8682C16.8077 12.6902 17 12.3589 17 12C17 11.6411 16.8077 11.3098 16.4961 11.1318L9.49614 7.13176ZM13.9844 12L10 14.2768V9.72318L13.9844 12Z" fill="#536a1f"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 8.25027 0 6.3754 0.954915 5.06107C1.26331 4.6366 1.6366 4.26331 2.06107 3.95491C3.3754 3 5.25027 3 9 3H15C18.7497 3 20.6246 3 21.9389 3.95491C22.3634 4.26331 22.7367 4.6366 23.0451 5.06107C24 6.3754 24 8.25027 24 12C24 15.7497 24 17.6246 23.0451 18.9389C22.7367 19.3634 22.3634 19.7367 21.9389 20.0451C20.6246 21 18.7497 21 15 21H9C5.25027 21 3.3754 21 2.06107 20.0451C1.6366 19.7367 1.26331 19.3634 0.954915 18.9389C0 17.6246 0 15.7497 0 12ZM9 5H15C16.9194 5 18.1983 5.00275 19.1673 5.10773C20.0989 5.20866 20.504 5.38448 20.7634 5.57295C21.018 5.75799 21.242 5.98196 21.4271 6.23664C21.6155 6.49605 21.7913 6.90113 21.8923 7.83269C21.9973 8.80167 22 10.0806 22 12C22 13.9194 21.9973 15.1983 21.8923 16.1673C21.7913 17.0989 21.6155 17.504 21.4271 17.7634C21.242 18.018 21.018 18.242 20.7634 18.4271C20.504 18.6155 20.0989 18.7913 19.1673 18.8923C18.1983 18.9973 16.9194 19 15 19H9C7.08058 19 5.80167 18.9973 4.83269 18.8923C3.90113 18.7913 3.49605 18.6155 3.23664 18.4271C2.98196 18.242 2.75799 18.018 2.57295 17.7634C2.38448 17.504 2.20866 17.0989 2.10773 16.1673C2.00275 15.1983 2 13.9194 2 12C2 10.0806 2.00275 8.80167 2.10773 7.83269C2.20866 6.90113 2.38448 6.49605 2.57295 6.23664C2.75799 5.98196 2.98196 5.75799 3.23664 5.57295C3.49605 5.38448 3.90113 5.20866 4.83269 5.10773C5.80167 5.00275 7.08058 5 9 5Z" fill="#536a1f"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="pt-8">
+                        <div class="h-0.5 bg-green-tea-700/50 rounded-full"></div>
+                    </div>
+
+                    <div class="justify-center items-center pt-6 space-y-4 gap-2 md:flex md:space-y-0 text-sm md:text-sm text-green-tea-700">
+                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full border border-gray-600 text-[10px] font-bold">C</span>
+                        <span>2026
+                                        <a
+                                                href="https://digitalprojek.com"
+                                                class="text-green-tea-800 font-semibold"
+                                        >digitalprojek.com</a> ||
+                                        All rights reserved.</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="public/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
